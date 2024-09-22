@@ -6,10 +6,10 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // Pokémon TCG API Key
-define('POKEMON_API_KEY', '2419e9b2-55dc-414a-96c4-601aaa5feed9');
+define('POKEMON_API_KEY', 'XXX');
 
 // ExchangeRate API Key
-define('EXCHANGE_API_KEY', 'd6947a3008eb2a5699987cf1');
+define('EXCHANGE_API_KEY', 'XXX');
 
 // Database connection setup
 try {
