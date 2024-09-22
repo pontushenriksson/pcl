@@ -1,0 +1,208 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+/* Stats Boxes */
+.stats-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: #5c6bc0;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+  min-width: 150px;
+}
+
+/* Currency Selector */
+.currency-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.currency-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.info-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.disclaimer {
+  display: none;
+  font-size: 12px;
+  color: #777;
+  margin-left: 5px;
+}
+
+/* Search Form */
+.search-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-section input[type='text'] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.search-section .btn {
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-section .btn:hover {
+  background-color: #3949ab;
+}
+
+/* Cards and Search Grid */
+.cards,
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card,
+.card-result {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.card:hover,
+.card-result:hover {
+  transform: scale(1.05);
+}
+
+.card img,
+.card-result img {
+  max-width: 150px;
+  margin-bottom: 15px;
+}
+
+.card-info,
+.card-result-info {
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0;
+}
+
+.card-info p,
+.card-result-info p {
+  margin: 8px 0;
+}
+
+/* Inline Form */
+.inline-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.inline-form input[type='number'] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inline-form .btn {
+  padding: 5px 10px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inline-form .btn:hover {
+  background-color: #3949ab;
+}
+
+/* Improved Delete Button */
+.delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Logout Button */
+.logout-btn {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #5c6bc0;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.logout-btn:hover {
+  background-color: #3949ab;
+}
