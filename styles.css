@@ -206,3 +206,10 @@ h2 {
 .logout-btn:hover {
   background-color: #3949ab;
 }
+
+div.sort-options {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 1rem;
+}
